@@ -1,7 +1,12 @@
 l= [[1, 2], [3, 4], [5, 6, 7]]
-l.reverse()
-for i in l:
-   i.reverse()
-    
-print(l)
+def cevir(x):
+    list.reverse()
+
+    for i in x:
+        i.reverse()
+
+        
+    return l
+cevir(l)
+
 
